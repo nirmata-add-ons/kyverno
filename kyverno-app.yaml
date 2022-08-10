@@ -7935,7 +7935,7 @@ metadata:
   name: kyverno
   namespace: kyverno
 spec:
-  minAvailable: 0
+  minAvailable: 1
   selector:
     matchLabels:
       app: kyverno
