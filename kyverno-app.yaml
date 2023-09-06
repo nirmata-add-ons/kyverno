@@ -35099,7 +35099,7 @@ spec:
             - --forceFailurePolicyIgnore=false
             - --loggingFormat=text
             - --v=2
-            - --enablePolicyException=false
+            - --enablePolicyException=true
             - --protectManagedResources=false
             - --allowInsecureRegistry=false
             - --registryCredentialHelpers=default,google,amazon,azure,github
@@ -35244,7 +35244,7 @@ spec:
             - --enableDeferredLoading=true
             - --loggingFormat=text
             - --v=2
-            - --enablePolicyException=false
+            - --enablePolicyException=true
           env:
           - name: INIT_CONFIG
             value: kyverno
